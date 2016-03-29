@@ -7,27 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061A07CC1CA08A7E00A2BE9D /* SMBXSiberianScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A07CB1CA08A7E00A2BE9D /* SMBXSiberianScoreViewController.m */; };
+		061A07CF1CA08AE000A2BE9D /* SMBStPetersburgScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A07CE1CA08AE000A2BE9D /* SMBStPetersburgScoreViewController.m */; };
+		061A07D21CA08B4000A2BE9D /* SMBKievScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 061A07D11CA08B4000A2BE9D /* SMBKievScoreViewController.m */; };
 		061F1E651C99D5E5003F6C76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 061F1E641C99D5E5003F6C76 /* main.m */; };
 		061F1E681C99D5E5003F6C76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 061F1E671C99D5E5003F6C76 /* AppDelegate.m */; };
-		061F1E6B1C99D5E5003F6C76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 061F1E6A1C99D5E5003F6C76 /* ViewController.m */; };
-		061F1E6E1C99D5E5003F6C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061F1E6C1C99D5E5003F6C76 /* Main.storyboard */; };
 		061F1E711C99D5E5003F6C76 /* Russian_RR_Companion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 061F1E6F1C99D5E5003F6C76 /* Russian_RR_Companion.xcdatamodeld */; };
 		061F1E731C99D5E5003F6C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061F1E721C99D5E5003F6C76 /* Assets.xcassets */; };
 		061F1E761C99D5E5003F6C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061F1E741C99D5E5003F6C76 /* LaunchScreen.storyboard */; };
+		06299B171C9AEACE002A8639 /* ScoringRounds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06299B161C9AEACE002A8639 /* ScoringRounds.storyboard */; };
+		06299B201C9AEB09002A8639 /* SMBEndRoundScoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 06299B191C9AEB09002A8639 /* SMBEndRoundScoring.m */; };
+		06299B211C9AEB09002A8639 /* SMBMidRoundScoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 06299B1B1C9AEB09002A8639 /* SMBMidRoundScoring.m */; };
+		06299B221C9AEB09002A8639 /* SMBPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06299B1D1C9AEB09002A8639 /* SMBPlayer.m */; };
+		06299B231C9AEB09002A8639 /* SMBRRDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 06299B1F1C9AEB09002A8639 /* SMBRRDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061A07CA1CA08A7D00A2BE9D /* SMBXSiberianScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBXSiberianScoreViewController.h; sourceTree = "<group>"; };
+		061A07CB1CA08A7E00A2BE9D /* SMBXSiberianScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMBXSiberianScoreViewController.m; sourceTree = "<group>"; };
+		061A07CD1CA08AE000A2BE9D /* SMBStPetersburgScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBStPetersburgScoreViewController.h; sourceTree = "<group>"; };
+		061A07CE1CA08AE000A2BE9D /* SMBStPetersburgScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMBStPetersburgScoreViewController.m; sourceTree = "<group>"; };
+		061A07D01CA08B4000A2BE9D /* SMBKievScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBKievScoreViewController.h; sourceTree = "<group>"; };
+		061A07D11CA08B4000A2BE9D /* SMBKievScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMBKievScoreViewController.m; sourceTree = "<group>"; };
 		061F1E601C99D5E5003F6C76 /* Russian_RR_Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Russian_RR_Companion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		061F1E641C99D5E5003F6C76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		061F1E661C99D5E5003F6C76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		061F1E671C99D5E5003F6C76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		061F1E691C99D5E5003F6C76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		061F1E6A1C99D5E5003F6C76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		061F1E6D1C99D5E5003F6C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		061F1E701C99D5E5003F6C76 /* Russian_RR_Companion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Russian_RR_Companion.xcdatamodel; sourceTree = "<group>"; };
 		061F1E721C99D5E5003F6C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		061F1E751C99D5E5003F6C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		061F1E771C99D5E5003F6C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06299B161C9AEACE002A8639 /* ScoringRounds.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScoringRounds.storyboard; sourceTree = "<group>"; };
+		06299B181C9AEB09002A8639 /* SMBEndRoundScoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBEndRoundScoring.h; sourceTree = "<group>"; };
+		06299B191C9AEB09002A8639 /* SMBEndRoundScoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMBEndRoundScoring.m; sourceTree = "<group>"; };
+		06299B1A1C9AEB09002A8639 /* SMBMidRoundScoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBMidRoundScoring.h; sourceTree = "<group>"; };
+		06299B1B1C9AEB09002A8639 /* SMBMidRoundScoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMBMidRoundScoring.m; sourceTree = "<group>"; };
+		06299B1C1C9AEB09002A8639 /* SMBPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBPlayer.h; sourceTree = "<group>"; };
+		06299B1D1C9AEB09002A8639 /* SMBPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMBPlayer.m; sourceTree = "<group>"; };
+		06299B1E1C9AEB09002A8639 /* SMBRRDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBRRDataSource.h; sourceTree = "<group>"; };
+		06299B1F1C9AEB09002A8639 /* SMBRRDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMBRRDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,16 +78,28 @@
 		061F1E621C99D5E5003F6C76 /* Russian_RR_Companion */ = {
 			isa = PBXGroup;
 			children = (
+				061F1E631C99D5E5003F6C76 /* Supporting Files */,
+				061F1E6F1C99D5E5003F6C76 /* Russian_RR_Companion.xcdatamodeld */,
+				061F1E771C99D5E5003F6C76 /* Info.plist */,
+				061F1E721C99D5E5003F6C76 /* Assets.xcassets */,
 				061F1E661C99D5E5003F6C76 /* AppDelegate.h */,
 				061F1E671C99D5E5003F6C76 /* AppDelegate.m */,
-				061F1E691C99D5E5003F6C76 /* ViewController.h */,
-				061F1E6A1C99D5E5003F6C76 /* ViewController.m */,
-				061F1E6C1C99D5E5003F6C76 /* Main.storyboard */,
-				061F1E721C99D5E5003F6C76 /* Assets.xcassets */,
 				061F1E741C99D5E5003F6C76 /* LaunchScreen.storyboard */,
-				061F1E771C99D5E5003F6C76 /* Info.plist */,
-				061F1E6F1C99D5E5003F6C76 /* Russian_RR_Companion.xcdatamodeld */,
-				061F1E631C99D5E5003F6C76 /* Supporting Files */,
+				06299B161C9AEACE002A8639 /* ScoringRounds.storyboard */,
+				06299B181C9AEB09002A8639 /* SMBEndRoundScoring.h */,
+				06299B191C9AEB09002A8639 /* SMBEndRoundScoring.m */,
+				06299B1A1C9AEB09002A8639 /* SMBMidRoundScoring.h */,
+				06299B1B1C9AEB09002A8639 /* SMBMidRoundScoring.m */,
+				06299B1C1C9AEB09002A8639 /* SMBPlayer.h */,
+				06299B1D1C9AEB09002A8639 /* SMBPlayer.m */,
+				06299B1E1C9AEB09002A8639 /* SMBRRDataSource.h */,
+				06299B1F1C9AEB09002A8639 /* SMBRRDataSource.m */,
+				061A07CA1CA08A7D00A2BE9D /* SMBXSiberianScoreViewController.h */,
+				061A07CB1CA08A7E00A2BE9D /* SMBXSiberianScoreViewController.m */,
+				061A07CD1CA08AE000A2BE9D /* SMBStPetersburgScoreViewController.h */,
+				061A07CE1CA08AE000A2BE9D /* SMBStPetersburgScoreViewController.m */,
+				061A07D01CA08B4000A2BE9D /* SMBKievScoreViewController.h */,
+				061A07D11CA08B4000A2BE9D /* SMBKievScoreViewController.m */,
 			);
 			path = Russian_RR_Companion;
 			sourceTree = "<group>";
@@ -141,7 +171,7 @@
 			files = (
 				061F1E761C99D5E5003F6C76 /* LaunchScreen.storyboard in Resources */,
 				061F1E731C99D5E5003F6C76 /* Assets.xcassets in Resources */,
-				061F1E6E1C99D5E5003F6C76 /* Main.storyboard in Resources */,
+				06299B171C9AEACE002A8639 /* ScoringRounds.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,8 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06299B221C9AEB09002A8639 /* SMBPlayer.m in Sources */,
 				061F1E711C99D5E5003F6C76 /* Russian_RR_Companion.xcdatamodeld in Sources */,
-				061F1E6B1C99D5E5003F6C76 /* ViewController.m in Sources */,
+				061A07CF1CA08AE000A2BE9D /* SMBStPetersburgScoreViewController.m in Sources */,
+				061A07CC1CA08A7E00A2BE9D /* SMBXSiberianScoreViewController.m in Sources */,
+				06299B201C9AEB09002A8639 /* SMBEndRoundScoring.m in Sources */,
+				061A07D21CA08B4000A2BE9D /* SMBKievScoreViewController.m in Sources */,
+				06299B211C9AEB09002A8639 /* SMBMidRoundScoring.m in Sources */,
+				06299B231C9AEB09002A8639 /* SMBRRDataSource.m in Sources */,
 				061F1E681C99D5E5003F6C76 /* AppDelegate.m in Sources */,
 				061F1E651C99D5E5003F6C76 /* main.m in Sources */,
 			);
@@ -162,14 +198,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		061F1E6C1C99D5E5003F6C76 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				061F1E6D1C99D5E5003F6C76 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		061F1E741C99D5E5003F6C76 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,6 +330,7 @@
 				061F1E7C1C99D5E5003F6C76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
